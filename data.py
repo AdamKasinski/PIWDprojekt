@@ -7,8 +7,8 @@ import numpy as np
 
 
 
-fils = os.listdir('C:\\Users\\Adam\\Desktop\\dataWIZD')
-files = {fils[i][:-4]:pd.read_csv(f'C:\\Users\\Adam\\Desktop\\dataWIZD\\{fils[i]}') for i in range(len(fils))}
+fils = os.listdir('dataWIZD')
+files = {fils[i][:-4]:pd.read_csv(f'dataWIZD\\{fils[i]}') for i in range(len(fils))}
 
 
 
